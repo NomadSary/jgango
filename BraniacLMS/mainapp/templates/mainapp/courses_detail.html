@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load static markdownify %}
+
 
 {% block title %}
 {{ course_object.name }}
@@ -14,7 +14,7 @@
         <div class="row h-100">
             <div class="col-12">
                 {% if course_object.description_as_markdown %}
-                {{ course_object.description|markdownify }}
+                {{ course_object.description}}
                 {% else %}
                 {{ course_object.description }}
                 {% endif %}
@@ -32,7 +32,7 @@
     <div class="col-sm-12 col-md-6 col-lg-4 order-1 order-md-2">
         <div class="row h-100">
             <div class="col-12 align-self-start">
-                <img class="w-100" src="{% static course_object.cover %}">
+                <img class="w-100" src="#">
             </div>
             <div class="col-12 align-self-end d-none d-md-block">
                 <p class="text-center mt-2">
@@ -73,11 +73,11 @@
             <div class="card-body">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
-                        <img src="{% static 'img/no_image.svg' %}" width="250px">
+                        <img src="#" width="250px">
                     </div>
                     <div class="col-12">
                         {% if item.description_as_markdown %}
-                        {{ item.description|markdownify }}
+                        {{ item.description}}
                         {% else %}
                         {{ item.description }}
                         {% endif %}
