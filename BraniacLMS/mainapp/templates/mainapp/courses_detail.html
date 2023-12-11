@@ -119,7 +119,7 @@
     <form action="{% url 'mainapp:course_feedback' %}" method="POST"
       id="feedbackForm">
       {% csrf_token %}
-      {{ feedback_form }}
+      {{ feedback_form|crispy }}
     </form>
     <button id="feedbackSubmit"
       class="btn btn-primary btn-block">Отправить</button>

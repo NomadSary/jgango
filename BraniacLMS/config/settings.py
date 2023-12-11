@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     "mainapp",
     "authapp",
     "crispy_forms",
+    "crispy_bootstrap4",
     "debug_toolbar",
 ]
 
@@ -167,6 +168,8 @@ AUTHENTICATION_BACKENDS = (
 
 SOCIAL_AUTH_GITHUB_KEY = "Iv1.255066463889853e"
 SOCIAL_AUTH_GITHUB_SECRET = "e85d674e5628f03d3b58e6d18ed0b9d4bd14b184"
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"
 
