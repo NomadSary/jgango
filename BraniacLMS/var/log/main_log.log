@@ -1,3 +1,8 @@
 [2023-12-05 19:32:36,858] DEBUG mainapp.views (66) Yet another log message
 [2023-12-05 20:24:43,244] DEBUG mainapp.views (67) Yet another log message
 [2023-12-05 20:26:00,702] DEBUG mainapp.views (67) Yet another log message
+[2023-12-09 20:29:55,120] DEBUG mainapp.views (71) Yet another log message
+[2023-12-14 18:49:23,855] DEBUG mainapp.views (71) Yet another log message
+[2023-12-14 18:52:55,355] DEBUG mainapp.views (71) Yet another log message
+[2023-12-14 18:52:56,185] INFO mainapp.tasks (14) Send message: '{'user_id': 1, 'message': 'test_message_text'}'
+[2023-12-14 18:54:49,080] DEBUG mainapp.views (71) Yet another log message
